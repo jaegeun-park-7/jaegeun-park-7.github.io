@@ -1,7 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Experience and Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .experience, .education {
+            margin-bottom: 2em;
+        }
+        .experience-item, .education-item {
+            border-bottom: 1px solid #f4f4f4;
+            padding: 1em 0;
+        }
+        .experience-item:last-child, .education-item:last-child {
+            border-bottom: none;
+        }
+        .logo {
+            width: 50px;
+            vertical-align: middle;
+        }
+        .details {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 60px);
+            padding-left: 10px;
+        }
+        .duration, .location, .role {
+            color: #666;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Professional Experience and Education</h1>
+    </header>
+    <div class="container">
+        <section class="experience">
+            <h2>Experience</h2>
+
+            <div class="experience-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Soongsil_University_logo.png" alt="Soongsil University logo" class="logo">
+                <div class="details">
+                    <h3>Associate Professor in Next-Generation Semiconductor</h3>
+                    <p>Soongsil University · Full-time</p>
+                    <p class="duration">Mar 2024 - Present · 4 mos</p>
+                    <p class="location">Seoul, South Korea · On-site</p>
+                    <p>Architecture and Verilog</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="https://riscv.org/wp-content/uploads/2021/12/RISC-V-Logo-Stacked-Color.png" alt="RISC-V International logo" class="logo">
+                <div class="details">
+                    <h3>RISC-V Membership (Soongsil University)</h3>
+                    <p>RISC-V International · Freelance</p>
+                    <p class="duration">Feb 2024 - Present · 5 mos</p>
+                    <p>Architecture</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/512px-Samsung_Logo.svg.png" alt="Samsung Electronics logo" class="logo">
+                <div class="details">
+                    <h3>Principal Engineer</h3>
+                    <p>Samsung Electronics · Full-time</p>
+                    <p class="duration">Mar 2021 - Sep 2023 · 2 yrs 7 mos</p>
+                    <p>NVMe SSD Controller Architecture</p>
+                    <p>Architecture and Verilog</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/512px-Samsung_Logo.svg.png" alt="Samsung Electronics logo" class="logo">
+                <div class="details">
+                    <h3>Staff Engineer</h3>
+                    <p>Samsung Electronics · Full-time</p>
+                    <p class="duration">Mar 2013 - Feb 2021 · 8 yrs</p>
+                    <p>SSD controller Architecture, NVMe/NVDIMM/NVMe over Fabric</p>
+                    <p>Architecture and Verilog</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/512px-Samsung_Logo.svg.png" alt="Samsung Electronics logo" class="logo">
+                <div class="details">
+                    <h3>선임 엔지니어</h3>
+                    <p>Samsung Electronics · Full-time</p>
+                    <p class="duration">May 2010 - Feb 2013 · 2 yrs 10 mos</p>
+                    <p>SATA SSD Flash-side IP Development</p>
+                    <p>Verilog</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="https://via.placeholder.com/50" alt="Siliconvine logo" class="logo">
+                <div class="details">
+                    <h3>Researcher</h3>
+                    <p>Siliconvine</p>
+                    <p class="duration">Nov 2008 - Feb 2010 · 1 yr 4 mos</p>
+                    <p>Korea</p>
+                    <p>DVB-C,T2 chip design</p>
+                    <p>LDPC, BCH, Matlab, C, verilog HDL</p>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <img src="https://via.placeholder.com/50" alt="Airpoint logo" class="logo">
+                <div class="details">
+                    <h3>Researcher</h3>
+                    <p>Airpoint</p>
+                    <p class="duration">Jan 2007 - Nov 2008 · 1 yr 11 mos</p>
+                    <p>South Korea</p>
+                    <p>Interference cancellation system repeater algorithm development</p>
+                    <p>Matlab, C, VHDL</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Soongsil_University_logo.png" alt="Soongsil University logo" class="logo">
+                <div class="details">
+                    <h3>Soongsil University</h3>
+                    <p>MS, Communication, Chip, Electronics</p>
+                    <p class="duration">2005 - 2006</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Soongsil_University_logo.png" alt="Soongsil University logo" class="logo">
+                <div class="details">
+                    <h3>Soongsil University</h3>
+                    <p>BA, Communication, Information, Electronics</p>
+                    <p class="duration">2000 - 2004</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
